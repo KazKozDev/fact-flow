@@ -2,6 +2,9 @@
 
 **Automated fact-checking system for verifying text claims using AI and web sources.**
 
+![Movie](https://github.com/user-attachments/assets/325b92eb-39e7-492d-a9c0-cef97bebe47a)
+
+
 ## Tech Stack
 
 * **Frontend**: React 19.1.0, TypeScript 5.7.2, Vite 6.2.0, Tailwind CSS 4.1.11
