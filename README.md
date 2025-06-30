@@ -2,20 +2,20 @@
 
 **Automated fact-checking system for verifying text claims using AI and web sources.**
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * **Frontend**: React 19.1.0, TypeScript 5.7.2, Vite 6.2.0, Tailwind CSS 4.1.11
 * **Backend**: Node.js 18+, Express 4.18.2, Python 3.9+, Ollama (`gemma3n:e4b`)
 * **Dependencies**: react 19.1.0, react-dom 19.1.0, express 4.18.2, python-requests 2.31.0, beautifulsoup4 4.12.2
 
-## 📋 Prerequisites
+## Prerequisites
 
 * Node.js 18+
 * Python 3.9+
 * Ollama installed
 * npm 9+ or yarn 1.22+
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the repo:
 
@@ -69,9 +69,8 @@ Navigate to `http://localhost:5173` to access the application.
 4. **Click "Verify Facts"** to check against web sources
 5. **View results** with confidence scores and source validation
 
-## 📚 Documentation
+## Documentation
 
-* [API Reference](docs/api-reference.md)
 * [Contributing Guide](CONTRIBUTING.md)
 * [Security Policy](SECURITY.md)
 
