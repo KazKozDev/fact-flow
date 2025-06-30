@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Enhanced text wrapping for long content */
+@layer utilities {
+  .text-wrap-enhanced {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+    line-break: anywhere;
+  }
+  
+  .container-responsive {
+    min-width: 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+}

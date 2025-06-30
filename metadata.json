@@ -1,0 +1,7 @@
+
+{
+  "name": "AI Fact-Checker with Ollama",
+  "description": "An AI-powered system that analyzes text to extract factual claims, then verifies them using a local Ollama model (gemma3n:e4b). The verification is based on the model's internal knowledge, not live web search.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

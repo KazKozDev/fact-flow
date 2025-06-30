@@ -1,0 +1,59 @@
+{
+  "system": {
+    "name": "AI Fact Checker",
+    "version": "2.0.0",
+    "description": "Multi-stage fact checking system with AI, Wikipedia and DuckDuckGo integration"
+  },
+  "frontend": {
+    "port": 5173,
+    "title": "🤖 AI Факт-Чекер",
+    "subtitle": "Многоэтапная система проверки фактов с использованием ИИ"
+  },
+  "backend": {
+    "port": 3001,
+    "endpoints": {
+      "health": "/health",
+      "duckduckgo": "/api/search/duckduckgo",
+      "python_test": "/api/test/python"
+    }
+  },
+  "services": {
+    "ollama": {
+      "url": "http://localhost:11434",
+      "model": "gemma3n:e4b"
+    },
+    "wikipedia": {
+      "search_api": "https://en.wikipedia.org/api/rest_v1/page/search",
+      "summary_api": "https://en.wikipedia.org/api/rest_v1/page/summary"
+    },
+    "duckduckgo": {
+      "method": "python_parser",
+      "script": "./parsing_duckduckgo.py",
+      "max_results": 5,
+      "cache": false
+    }
+  },
+  "features": {
+    "multi_stage_process": true,
+    "fact_extraction": true,
+    "fact_publication": true,
+    "external_search": true,
+    "ai_interpretation": true,
+    "source_attribution": true,
+    "progress_tracking": true,
+    "result_export": true
+  },
+  "limits": {
+    "max_claims_per_request": 10,
+    "max_search_results": 5,
+    "request_timeout": 30000,
+    "cache_expiration": 86400
+  },
+  "ui": {
+    "language": "ru",
+    "theme": "light",
+    "show_progress": true,
+    "show_sources": true,
+    "enable_editing": true
+  }
+}
