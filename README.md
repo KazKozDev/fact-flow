@@ -11,7 +11,7 @@
 
 Automated fact-checking system that extracts claims from text and verifies them using web search + local AI analysis.
 
-**For**: Journalists, researchers, students who need to verify information locally without sending data to cloud services.
+**For**: Journalists, researchers, students who need to verify information locally without sending data to cloud.
 
 **Why**: Automate fact-checking routine while maintaining full privacy and transparency of the verification process.
 
